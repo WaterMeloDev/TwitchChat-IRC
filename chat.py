@@ -25,10 +25,10 @@ class TwitchBot(irc.bot.SingleServerIRCBot):
         print(f'{colored_username}: {message}')
 
 if __name__ == '__main__':
-    username = ''
-    client_id = ''
-    token = ''
-    channel = ''
+    username = 'your_bot_username'
+    client_id = 'your_client_id'
+    token = 'your_oauth_token'
+    channel = 'target_channel_name'
     
     bot = TwitchBot(username, client_id, token, channel)
     bot.start()
