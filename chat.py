@@ -15,7 +15,7 @@ class TwitchBot(irc.bot.SingleServerIRCBot):
 
     def on_welcome(self, connection, event):
         connection.join(self.channel)
-        print("Bot is now connected and running!")
+        print(f"Connected to {self.channel}!\nNow loading Twitch chat...")
 
     def on_pubmsg(self, connection, event):
         message = event.arguments[0]

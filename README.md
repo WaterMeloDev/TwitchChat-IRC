@@ -1,4 +1,5 @@
 # Twitch IRC Bot
+![Twitch Bot Screenshot](https://cdn.discordapp.com/attachments/1134455540903325746/1145470146153041961/image.png)
 
 This is a simple Python script that creates a Twitch IRC bot using the irc library.
 The bot connects to a specified Twitch channel's chat room and displays messages
